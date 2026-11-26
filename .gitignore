@@ -1,0 +1,21 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# Local datasets
+data/*
+!data/README.md
+
+# Airflow runtime files
+logs/
+
+# macOS
+.DS_Store
